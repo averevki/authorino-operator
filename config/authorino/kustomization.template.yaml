@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-- github.com/Kuadrant/authorino/install?ref=${AUTHORINO_GITREF}
+- github.com/averevki/authorino/install?ref=${AUTHORINO_GITREF}
 # - webhook
 
 # # Configures the conversion webhook
